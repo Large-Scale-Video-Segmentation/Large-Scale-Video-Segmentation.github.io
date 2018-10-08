@@ -21,14 +21,14 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ "LzS7":
+/***/ "Sa65":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ "Sa65":
+/***/ "Yjid":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -56,13 +56,6 @@ webpackJsonp([1],{
 
 /***/ }),
 
-/***/ "fLdC":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "hgLs":
 /***/ (function(module, exports) {
 
@@ -71,6 +64,13 @@ webpackJsonp([1],{
 /***/ }),
 
 /***/ "mS3k":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "sNlf":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -143,7 +143,7 @@ var app_App = /** @class */ (function (_super) {
                         text: 'Workshop Program', to: 'workshop',
                     }, {
                         text: 'Leaderboard', to: 'leaderboard',
-                        disabled: true,
+                        disabled: false,
                     },],
             }
         ];
@@ -163,15 +163,15 @@ var app_App = /** @class */ (function (_super) {
 }(vue_esm["default"]));
 /* harmony default export */ var app = (app_App);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-03c6f5b3","hasScoped":false,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/app.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-542fd968","hasScoped":false,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/app.vue
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_vm._m(0),_c('nav',{staticClass:"tabs is-full-width is-boxed"},[_c('div',{staticClass:"container is-primary"},[_vm._l((_vm.menu),function(item){return [(!item.submenu)?_c('div',{staticClass:"dropdown nav-item",class:{active: _vm.route.includes(item.to)},attrs:{"slot":"trigger"},slot:"trigger"},[_c('router-link',{attrs:{"to":'/'+item.to}},[_vm._v(_vm._s(item.text))])],1):_vm._e(),(item.submenu)?_c('b-dropdown',{attrs:{"hoverable":"hoverable"}},[_c('div',{staticClass:"nav-item",class:{active: _vm.route.includes(item.to)},attrs:{"slot":"trigger"},slot:"trigger"},[_c('a',[_vm._v(_vm._s(item.text)),_c('b-icon',{attrs:{"icon":"menu-down","size":"is-small"}})],1)]),_vm._l((item.submenu),function(subitem){return _c('b-dropdown-item',{class:{active: _vm.route.includes(subitem.to)},attrs:{"disabled":subitem.disabled}},[(!subitem.disabled)?_c('router-link',{staticClass:"submenu",attrs:{"to":'/'+item.to+'/'+subitem.to,"tag":"span"}},[_vm._v(_vm._s(subitem.text))]):_vm._e(),(subitem.disabled)?_c('span',{staticClass:"submenu"},[_vm._v(_vm._s(subitem.text))]):_vm._e()],1)})],2):_vm._e()]})],2)]),_c('router-view')],1)}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('header',{staticClass:"hero is-primary"},[_c('div',{staticClass:"hero-body"},[_c('div',{staticClass:"container"},[_c('h1',{staticClass:"title"},[_vm._v("YouTube-VOS: A Large-Scale Benchmark for Video Object Segmentation")])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ var selectortype_template_index_0_src_app = (esExports);
 // CONCATENATED MODULE: ./src/app.vue
 function injectStyle (ssrContext) {
-  __webpack_require__("LzS7")
-  __webpack_require__("fLdC")
+  __webpack_require__("sNlf")
+  __webpack_require__("Yjid")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
