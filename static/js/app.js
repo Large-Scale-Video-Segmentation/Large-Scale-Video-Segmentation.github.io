@@ -56,6 +56,13 @@ webpackJsonp([0],{
 
 /***/ }),
 
+/***/ "dIFJ":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "erTq":
 /***/ (function(module, exports) {
 
@@ -70,7 +77,7 @@ webpackJsonp([0],{
 
 /***/ }),
 
-/***/ "mS3k":
+/***/ "jWel":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -78,13 +85,6 @@ webpackJsonp([0],{
 /***/ }),
 
 /***/ "sNlf":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "v1EV":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -100,9 +100,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // EXTERNAL MODULE: ./node_modules/vue/dist/vue.esm.js
 var vue_esm = __webpack_require__("7+uW");
 
-// EXTERNAL MODULE: ./node_modules/vue-property-decorator/lib/vue-property-decorator.umd.js
-var vue_property_decorator_umd = __webpack_require__("EOM2");
-var vue_property_decorator_umd_default = /*#__PURE__*/__webpack_require__.n(vue_property_decorator_umd);
+// EXTERNAL MODULE: ./node_modules/vue-property-decorator/lib/vue-property-decorator.js
+var vue_property_decorator = __webpack_require__("443i");
 
 // CONCATENATED MODULE: ./node_modules/ts-loader!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/app.vue
 var __extends = (this && this.__extends) || (function () {
@@ -164,7 +163,7 @@ var app_App = /** @class */ (function (_super) {
         configurable: true
     });
     App = __decorate([
-        Object(vue_property_decorator_umd["Component"])({ name: 'app' })
+        Object(vue_property_decorator["a" /* Component */])({ name: 'app' })
     ], App);
     return App;
 }(vue_esm["default"]));
@@ -213,9 +212,9 @@ var theme_default = /*#__PURE__*/__webpack_require__.n(theme);
 var main = __webpack_require__("erTq");
 var main_default = /*#__PURE__*/__webpack_require__.n(main);
 
-// EXTERNAL MODULE: ./node_modules/buefy/lib/index.js
-var lib = __webpack_require__("MMSg");
-var lib_default = /*#__PURE__*/__webpack_require__.n(lib);
+// EXTERNAL MODULE: ./node_modules/buefy/dist/buefy.js
+var buefy = __webpack_require__("O3Oo");
+var buefy_default = /*#__PURE__*/__webpack_require__.n(buefy);
 
 // CONCATENATED MODULE: ./node_modules/ts-loader!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./src/components/explore-sidebar.vue
 var explore_sidebar___extends = (this && this.__extends) || (function () {
@@ -251,19 +250,19 @@ var explore_sidebar_ExploreSidebar = /** @class */ (function (_super) {
         this.$emit('update:category', cat);
     };
     explore_sidebar___decorate([
-        Object(vue_property_decorator_umd["Prop"])({ default: '' })
+        Object(vue_property_decorator["b" /* Prop */])({ default: '' })
     ], ExploreSidebar.prototype, "category", void 0);
     explore_sidebar___decorate([
-        Object(vue_property_decorator_umd["Prop"])({ default: '' })
+        Object(vue_property_decorator["b" /* Prop */])({ default: '' })
     ], ExploreSidebar.prototype, "group", void 0);
     explore_sidebar___decorate([
-        Object(vue_property_decorator_umd["Prop"])({ default: {} })
+        Object(vue_property_decorator["b" /* Prop */])({ default: {} })
     ], ExploreSidebar.prototype, "groups", void 0);
     ExploreSidebar = explore_sidebar___decorate([
-        vue_property_decorator_umd["Component"]
+        vue_property_decorator["a" /* Component */]
     ], ExploreSidebar);
     return ExploreSidebar;
-}(vue_property_decorator_umd["Vue"]));
+}(vue_property_decorator["c" /* Vue */]));
 /* harmony default export */ var explore_sidebar = (explore_sidebar_ExploreSidebar);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-538f3915","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/explore-sidebar.vue
@@ -306,7 +305,7 @@ var explore_sidebar_Component = explore_sidebar_normalizeComponent(
 
 
 
-vue_esm["default"].use(lib_default.a);
+vue_esm["default"].use(buefy_default.a);
 vue_esm["default"].component('explore-sidebar', src_components_explore_sidebar);
 
 // EXTERNAL MODULE: ./node_modules/vue-router/dist/vue-router.esm.js
@@ -352,11 +351,11 @@ var home_HomePage = /** @class */ (function (_super) {
                 link: 'https://sites.google.com/view/ningxu/homepage'
             }, {
                 name: 'Linjie Yang',
-                affiliation: 'Snap Research',
+                affiliation: 'ByteDance AI Lab',
                 im_name: 'LinjieYang'
             }, {
                 name: 'Jianchao Yang',
-                affiliation: 'Toutiao AI Lab',
+                affiliation: 'ByteDance AI Lab',
                 im_name: 'JianchaoYang'
             }, {
                 name: 'Dingcheng Yue',
@@ -388,20 +387,20 @@ var home_HomePage = /** @class */ (function (_super) {
         return "The data set consists of " + info['number'] + " " + info['unit'];
     };
     HomePage = home___decorate([
-        vue_property_decorator_umd["Component"]
+        vue_property_decorator["a" /* Component */]
     ], HomePage);
     return HomePage;
-}(vue_property_decorator_umd["Vue"]));
+}(vue_property_decorator["c" /* Vue */]));
 /* harmony default export */ var home = (home_HomePage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-4028d8ba","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/home.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-73e49950","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/home.vue
 var home_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page",attrs:{"id":"page-home"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container content"},[_vm._m(0),_c('div',{staticClass:"section"},[_c('div',{staticClass:"columns"},_vm._l((_vm.infos),function(info){return _c('div',{staticClass:"column"},[_c('div',{staticClass:"infos"},[_c('b-tooltip',{attrs:{"label":_vm.expandinfo(info),"type":"is-light"}},[_c('div',{staticClass:"num"},[_vm._v(" "+_vm._s(info.number))]),_c('div',{staticClass:"info"},[_vm._v(_vm._s(info.unit))])])],1)])}))]),_vm._m(1),_c('div',{staticClass:"section news"},[_c('h1',{staticClass:"title is-4"},[_vm._v("News")]),_c('ul',[_c('li',[_vm._v("We have now released all the frames for the dataset")]),_vm._m(2),_c('li',[_vm._v("The training images and annotations are now available in"),_c('router-link',{attrs:{"to":"/dataset/download"}},[_vm._v(" download")]),_vm._v(" page. The competition guidelines can be found in"),_c('router-link',{attrs:{"to":"/challenge/guidelines"}},[_vm._v(" guidelines")]),_vm._v(" page.")],1),_c('li',[_vm._v("We are carefully performing the final check of our dataset and will release it in mid June of 2018.")]),_c('li',[_vm._v("Check out our benchmark challenge"),_c('router-link',{attrs:{"to":"/challenge/challenge2018"}},[_vm._v(" \"1st Large-scale Video Object Segmentation Challenge\"")]),_vm._v(" which will be held in ECCV 2018!")],1)])]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Dataset Examples")]),_c('div',{staticClass:"columns example"},_vm._l((_vm.samples),function(sample){return _c('div',[_c('img',{attrs:{"src":'/static/samples/'+sample+'_bike.jpg'}}),_c('img',{attrs:{"src":'/static/samples/'+sample+'_fish.jpg'}})])})),_c('p',[_c('span',[_vm._v("For more examples, please")]),_c('router-link',{attrs:{"to":"/dataset/explore"}},[_vm._v(" explore")]),_c('span',[_vm._v(" our dataset.")])],1)]),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("People")]),_c('div',{staticClass:"columns flex-wrap"},_vm._l((_vm.organizers),function(organizer){return _c('div',[_c('figure',{staticClass:"image is-128x128"},[_c('img',{staticClass:"is-rounded",attrs:{"src":'/static/organizers/'+organizer.im_name+'.jpg'}})]),_c('p',{staticClass:"has-text-centered"},[_c('a',{attrs:{"href":organizer.link}},[_vm._v(_vm._s(organizer.name))]),_c('br'),_c('span',[_vm._v(_vm._s(organizer.affiliation))])])])}))]),_vm._m(3),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Contact")]),_c('p',[_vm._v("For "),_c('router-link',{attrs:{"to":"/dataset/download"}},[_vm._v("dataset")]),_vm._v(" related questions, please feel free to contact"),_c('a',{attrs:{"href":"mailto:ytvos@gmail.com"}},[_vm._v(" ytbvos@gmail.com")]),_vm._v(".")],1),_c('p',[_vm._v("For "),_c('router-link',{attrs:{"to":"/challenge/challenge2018"}},[_vm._v("challenge")]),_vm._v(" related questions, you canalso use "),_c('a',{attrs:{"href":"https://competitions.codalab.org/forums/16267/"}},[_vm._v("codalab forums")]),_vm._v(".")],1)]),_vm._m(4),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Sponsors")]),_c('div',{staticClass:"columns"},_vm._l((_vm.sponsors),function(sponsor){return _c('div',{staticClass:"column"},[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'/static/sponsors/'+sponsor.im_name}})])])}))])])])])}
 var home_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("YouTube-VOS")]),_c('p',[_vm._v("YouTube-VOS is the first large-scale dataset for video object segmentation. Our dataset contains 4000+ YouTube videos, 70+ common objects and densely-sampled high-quality pixel-level annotations. Some statistics of the dataset are shown below. "),_c('a',{attrs:{"href":"https://arxiv.org/abs/1809.03327"}},[_vm._v("More details can be found in the dataset report.")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('p',[_vm._v("We hope that such a large-scale dataset can:")]),_c('ul',[_c('li',[_vm._v("Overcome the data-insufficiency issue for video object segmentation as well as other low and mid-level video understanding tasks, and therefore foster more bold and complicated algorithms such as RNN, Reinforcement Learning etc.")]),_c('li',[_vm._v("Provide diverse training samples to help learn specific object characteristics in videos such as spatial-temporal coherence.")]),_c('li',[_vm._v("Provide more comprehensive evaluation results than existing datasets (For example, larger testing scale and better evaluation metrics).")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',[_vm._v("The competition is hosted on "),_c('a',{attrs:{"href":"https://competitions.codalab.org/competitions/19544"}},[_vm._v("codelab")]),_vm._v(". Please register an account on codalab to participate.")])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Citation")]),_c('pre',[_c('code',[_vm._v("@article{xu2018youtube,\ntitle={YouTube-VOS: A Large-Scale Video Object Segmentation Benchmark},\nauthor={Xu, Ning and Yang, Linjie and Fan, Yuchen and Yue, Dingcheng and Liang, Yuchen and Yang, Jianchao and Huang, Thomas},\njournal={arXiv preprint arXiv:1809.03327},\nyear={2018}\n}")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("License")]),_c('p',[_vm._v("The annotations in this dataset belong to the organizers of the challenge and are licensed under a"),_c('a',{attrs:{"href":"https://creativecommons.org/licenses/by/4.0/"}},[_vm._v(" Creative Commons Attribution 4.0 License")]),_vm._v(".")])])}]
 var home_esExports = { render: home_render, staticRenderFns: home_staticRenderFns }
 /* harmony default export */ var pages_home = (home_esExports);
 // CONCATENATED MODULE: ./src/pages/home.vue
 function home_injectStyle (ssrContext) {
-  __webpack_require__("v1EV")
+  __webpack_require__("dIFJ")
 }
 var home_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -414,7 +413,7 @@ var home___vue_template_functional__ = false
 /* styles */
 var home___vue_styles__ = home_injectStyle
 /* scopeId */
-var home___vue_scopeId__ = "data-v-4028d8ba"
+var home___vue_scopeId__ = "data-v-73e49950"
 /* moduleIdentifier (server only) */
 var home___vue_module_identifier__ = null
 var home_Component = home_normalizeComponent(
@@ -458,7 +457,7 @@ var challenge_ChallengePage = /** @class */ (function (_super) {
                 link: 'http://sites.google.com/view/ningxu/',
             }, {
                 name: 'Linjie Yang',
-                affiliation: 'Snap Research',
+                affiliation: 'ByteDance AI Lab',
                 im_name: 'LinjieYang',
                 link: 'https://sites.google.com/site/linjieyang89/',
             }, {
@@ -483,7 +482,7 @@ var challenge_ChallengePage = /** @class */ (function (_super) {
                 link: 'https://sites.google.com/site/michaelyingyang/',
             }, {
                 name: 'Jianchao Yang',
-                affiliation: 'Toutiao AI Lab',
+                affiliation: 'ByteDance AI Lab',
                 im_name: 'JianchaoYang',
                 link: 'http://www.ifp.illinois.edu/~jyang29/',
             }, {
@@ -507,20 +506,20 @@ var challenge_ChallengePage = /** @class */ (function (_super) {
         return _this;
     }
     ChallengePage = challenge___decorate([
-        vue_property_decorator_umd["Component"]
+        vue_property_decorator["a" /* Component */]
     ], ChallengePage);
     return ChallengePage;
-}(vue_property_decorator_umd["Vue"]));
+}(vue_property_decorator["c" /* Vue */]));
 /* harmony default export */ var challenge = (challenge_ChallengePage);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-14edd102","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/challenge.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-5bb10ee4","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/challenge.vue
 var challenge_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"page-dataset"}},[_c('section',{staticClass:"section",attrs:{"id":"display-section"}},[_c('div',{staticClass:"container content"},[_vm._m(0),_vm._m(1),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Announcement")]),_c('ul',[_vm._m(2),_c('li',[_vm._v("The top three teams will be awarded with prizes.")]),_c('li',[_vm._v("The training dataset is available. Please checkout"),_c('router-link',{attrs:{"to":"/dataset/download"}},[_vm._v(" download")]),_vm._v(" page.")],1),_c('li',[_vm._v("The test server will be available soon.")])])]),_vm._m(3),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Organizers")]),_c('div',{staticClass:"columns flex-wrap"},_vm._l((_vm.organizers),function(organizer){return _c('div',[_c('figure',{staticClass:"image is-128x128 has-text-centered"},[_c('img',{staticClass:"is-rounded",attrs:{"src":'/static/organizers/'+organizer.im_name+'.jpg'}})]),_c('p',{staticClass:"is-size-6 has-text-centered"},[_c('a',{attrs:{"href":organizer.link}},[_vm._v(_vm._s(organizer.name))]),_c('br'),_c('span',[_vm._v(_vm._s(organizer.affiliation))])])])}))]),_vm._m(4),_c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Sponsors")]),_c('div',{staticClass:"columns flex-wrap"},_vm._l((_vm.sponsors),function(sponsor){return _c('div',[_c('figure',{staticClass:"image is-128x128"},[_c('img',{attrs:{"src":'/static/sponsors/'+sponsor.im_name}})])])}))])])])])}
 var challenge_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title has-text-centered"},[_vm._v("The 1st Large-scale Video Object Segmentation Challenge")]),_c('h2',{staticClass:"subtitle has-text-centered has-text-grey-light"},[_vm._v("Workshop in conjunction with ECCV2018, Munich, Germany")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Introduction")]),_c('p',[_vm._v("Video object segmentation has been studied extensively in the past decade due to its importance in understanding video spatial-temporal structures as well as its value in industrial applications. Recently, data-driven algorithms (e.g. deep learning) have become the dominant approach to computer vision problems and one of the most important keys to their successes is the availability of large-scale datasets. Unfortunately, there does not exist a large-scale dataset for video object segmentation. As a result, recent algorithms for video object segmentation have to train their models on image datasets which do not contain any temporal information or video-specific characteristics, and thus would settle for suboptimal solutions. Besides, previous benchmark does not differentiate the object categories used in training and testing, and therefore cannot evaluate the true generalization ability of algorithms on unseen categories.")]),_c('p',[_vm._v("In this workshop in conjunction with a competition, we will present the first large-scale dataset for video object segmentation, which would allow participant teams to try novel and bold ideas that could not succeed with previous small-scale datasets. In contrast to previous video-object-segmentation datasets, our dataset has the following advantages:")]),_c('li',[_vm._v("Our dataset contains 4000+ high-resolution videos clips, which are downloaded from YouTube and contain diverse contents. It is more than 30 times larger than the existing largest dataset (i.e. DAVIS) for video object segmentation.")]),_c('li',[_vm._v("Our dataset consists of a total of 94 object categories which cover common objects such as animals, vehicles, accessories and persons in different activities.")]),_c('li',[_vm._v("The videos in our dataset are taken by both amateurs and professionals. Therefore, in addition to various object motion, there is frequently significant camera motion.")]),_c('li',[_vm._v("Our segmentation masks are carefully labeled by human annotators to ensure high quality")]),_c('p',[_vm._v("We expect that our new dataset shall bring new possibilities of generating novel ideas for dense-prediction video tasks as well as providing a more comprehensive evaluation methodologies for video segmentation technology.")]),_c('p',[_vm._v("Our workshop is co-located with another video segmentation workshop"),_c('a',{attrs:{"href":"http://eecs.oregonstate.edu/IWVS_workshop/"}},[_vm._v(" \"The Third International Workshop on Video Segmentation\"")]),_vm._v(". The other workshop will discuss on a wide range of topics in video segmentation. Welcome to attend their workshop as  well in the morning session.")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('li',{staticClass:"has-text-weight-bold"},[_vm._v("The test server is now ready at"),_c('a',{attrs:{"href":"https://competitions.codalab.org/competitions/19544"}},[_vm._v(" CodaLab.")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Tentative Timetable")]),_c('ul',[_c('li',[_c('strong',[_vm._v("Sep 14th")]),_vm._v(": The workshop begins.")]),_c('li',[_c('strong',[_vm._v("Aug 27th")]),_vm._v(": The final competition results will be announced and high-performance teams will be invited.")]),_c('li',[_c('strong',[_vm._v("Aug 10th-25th")]),_vm._v(": Release the test dataset and open the submission of the test results.")]),_c('li',[_c('strong',[_vm._v("Jul 18th")]),_vm._v(": Setup the submission server on CodaLab and open the submission of the validation results.")]),_c('li',[_c('strong',[_vm._v("Jun 18th")]),_vm._v(": Release the training and validation dataset.")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"section"},[_c('h1',{staticClass:"title is-4"},[_vm._v("Contact")]),_c('p',[_vm._v("For Challenge related questions, please feel free to contact"),_c('a',{attrs:{"href":"mailto:ytvos@gmail.com"}},[_vm._v(" ytbvos@gmail.com")]),_vm._v(".")])])}]
 var challenge_esExports = { render: challenge_render, staticRenderFns: challenge_staticRenderFns }
 /* harmony default export */ var pages_challenge = (challenge_esExports);
 // CONCATENATED MODULE: ./src/pages/challenge.vue
 function challenge_injectStyle (ssrContext) {
-  __webpack_require__("mS3k")
+  __webpack_require__("jWel")
 }
 var challenge_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -533,7 +532,7 @@ var challenge___vue_template_functional__ = false
 /* styles */
 var challenge___vue_styles__ = challenge_injectStyle
 /* scopeId */
-var challenge___vue_scopeId__ = "data-v-14edd102"
+var challenge___vue_scopeId__ = "data-v-5bb10ee4"
 /* moduleIdentifier (server only) */
 var challenge___vue_module_identifier__ = null
 var challenge_Component = challenge_normalizeComponent(
@@ -579,10 +578,10 @@ var download_DownloadPage = /** @class */ (function (_super) {
         return _this;
     }
     DownloadPage = download___decorate([
-        vue_property_decorator_umd["Component"]
+        vue_property_decorator["a" /* Component */]
     ], DownloadPage);
     return DownloadPage;
-}(vue_property_decorator_umd["Vue"]));
+}(vue_property_decorator["c" /* Vue */]));
 /* harmony default export */ var download = (download_DownloadPage);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-568ad2d2","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/download.vue
@@ -659,10 +658,10 @@ var workshop_WorkshopPage = /** @class */ (function (_super) {
         return _this;
     }
     WorkshopPage = workshop___decorate([
-        vue_property_decorator_umd["Component"]
+        vue_property_decorator["a" /* Component */]
     ], WorkshopPage);
     return WorkshopPage;
-}(vue_property_decorator_umd["Vue"]));
+}(vue_property_decorator["c" /* Vue */]));
 /* harmony default export */ var workshop = (workshop_WorkshopPage);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-761f1c64","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/workshop.vue
@@ -723,10 +722,10 @@ var guidelines_GuidelinesPage = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     GuidelinesPage = guidelines___decorate([
-        vue_property_decorator_umd["Component"]
+        vue_property_decorator["a" /* Component */]
     ], GuidelinesPage);
     return GuidelinesPage;
-}(vue_property_decorator_umd["Vue"]));
+}(vue_property_decorator["c" /* Vue */]));
 /* harmony default export */ var guidelines = (guidelines_GuidelinesPage);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-1db145c6","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/guidelines.vue
@@ -787,10 +786,10 @@ var dummy_DummyPage = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     DummyPage = dummy___decorate([
-        vue_property_decorator_umd["Component"]
+        vue_property_decorator["a" /* Component */]
     ], DummyPage);
     return DummyPage;
-}(vue_property_decorator_umd["Vue"]));
+}(vue_property_decorator["c" /* Vue */]));
 /* harmony default export */ var dummy = (dummy_DummyPage);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-a9155c5a","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/dummy.vue
@@ -851,10 +850,10 @@ var notfound_NotfoundPage = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     NotfoundPage = notfound___decorate([
-        vue_property_decorator_umd["Component"]
+        vue_property_decorator["a" /* Component */]
     ], NotfoundPage);
     return NotfoundPage;
-}(vue_property_decorator_umd["Vue"]));
+}(vue_property_decorator["c" /* Vue */]));
 /* harmony default export */ var notfound = (notfound_NotfoundPage);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-4916f6cb","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/notfound.vue
@@ -915,10 +914,10 @@ var leaderboard_LeaderboardPage = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     LeaderboardPage = leaderboard___decorate([
-        vue_property_decorator_umd["Component"]
+        vue_property_decorator["a" /* Component */]
     ], LeaderboardPage);
     return LeaderboardPage;
-}(vue_property_decorator_umd["Vue"]));
+}(vue_property_decorator["c" /* Vue */]));
 /* harmony default export */ var leaderboard = (leaderboard_LeaderboardPage);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7dad1719","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/template-compiler/preprocessor.js?engine=pug!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/pages/leaderboard.vue
